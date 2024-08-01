@@ -1,7 +1,32 @@
+# Build directories
 bin/
 obj/
-/packages/
+
+# Rider/IDE specific files
+.idea/
 riderModule.iml
 /_ReSharper.Caches/
-idea/
+
+# Visual Studio specific files
+.vs/
+.vscode/
+
+# NuGet packages
+/packages/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Properties directory
 Properties/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Other common unwanted files
+.DS_Store
+Thumbs.db
