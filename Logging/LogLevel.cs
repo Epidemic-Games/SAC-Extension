@@ -1,6 +1,11 @@
 ﻿namespace Oxide.Ext.SAC.Logging
 {
-    internal class LogLevel
+    public enum LogLevel
     {
+        Info,
+        Warning,
+        Error,
+        Debug,
+        Exception
     }
 }
