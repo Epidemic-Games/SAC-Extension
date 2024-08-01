@@ -1,5 +1,6 @@
 ﻿using Oxide.Core;
 using Oxide.Core.Extensions;
+using Oxide.Ext.SAC.Configuration;
 using Oxide.Ext.SAC.Logging;
 
 namespace Oxide.Ext.SAC
@@ -19,6 +20,7 @@ namespace Oxide.Ext.SAC
         // Called when the extension is loaded
         public override void Load()
         {
+            Config.LoadConfig();
             ExtensionLogger = new Logger(LogLevel.Info);
         }
     }
