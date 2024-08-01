@@ -7,7 +7,7 @@ namespace Oxide.Ext.SAC
     {
         public SACExtension(ExtensionManager manager) : base(manager) { }
 
-        // Initialise extenstion details
+        // Initialise extension details
         public override string Name => "Super Anti-Cheat";
         public override string Author => "Epidemic";
         public override VersionNumber Version => new(0, 0, 1);
