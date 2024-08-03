@@ -113,6 +113,7 @@
     <Compile Include="Plugins\SACExtensionCore.cs" />
     <Compile Include="Plugins\SACPlugin.cs" />
     <Compile Include="Plugins\SACPluginLoader.cs" />
+    <Compile Include="Plugins\Core\UICore.cs" />
     <Compile Include="SACExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
