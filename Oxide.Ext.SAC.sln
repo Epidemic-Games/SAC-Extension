@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.34929.205
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oxide.Ext.SAC", "Oxide.Ext.SAC.csproj", "{EB16A620-EFE4-4126-84B7-E3280411524C}"
 EndProject
 Global
@@ -12,5 +15,11 @@ Global
 		{EB16A620-EFE4-4126-84B7-E3280411524C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB16A620-EFE4-4126-84B7-E3280411524C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB16A620-EFE4-4126-84B7-E3280411524C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67F9EAF5-7680-432F-B1E5-BB2EB1B9E34F}
 	EndGlobalSection
 EndGlobal

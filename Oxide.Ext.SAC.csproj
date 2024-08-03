@@ -110,9 +110,13 @@
     <Compile Include="Logging\ILog.cs" />
     <Compile Include="Logging\Logger.cs" />
     <Compile Include="Logging\LogLevel.cs" />
+    <Compile Include="Plugins\SACExtensionCore.cs" />
+    <Compile Include="Plugins\SACPlugin.cs" />
+    <Compile Include="Plugins\SACPluginLoader.cs" />
     <Compile Include="SACExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
          Other similar extension points exist, see Microsoft.Common.targets.
