@@ -110,7 +110,7 @@
     <Compile Include="Logging\ILog.cs" />
     <Compile Include="Logging\Logger.cs" />
     <Compile Include="Logging\LogLevel.cs" />
-    <Compile Include="Plugins\SACExtensionCore.cs" />
+    <Compile Include="Plugins\Core\SACExtensionCore.cs" />
     <Compile Include="Plugins\SACPlugin.cs" />
     <Compile Include="Plugins\SACPluginLoader.cs" />
     <Compile Include="SACExtension.cs" />
