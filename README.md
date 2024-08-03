@@ -1,2 +1,2 @@
 # Super Anti-Cheat
-Description coming soon...
+Description coming soon
